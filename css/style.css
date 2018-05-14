@@ -1,0 +1,13 @@
+/* Base Styles */
+
+body {
+  font-size: 32px;
+  line-height: 60px;
+  font-family: sans-serif, serif;
+}
+
+.transcriptWrapper {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+}
