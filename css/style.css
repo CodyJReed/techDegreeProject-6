@@ -1,8 +1,11 @@
 /* Base Styles */
 
 body {
-  font-size: 32px;
-  line-height: 60px;
+  /* I would use max-width @ 966px to retain
+  better image quality and layout on desktops
+  wider then 768px*/
+  font-size: 20px;
+  line-height: 40px;
   font-family: sans-serif, serif;
 }
 
@@ -10,4 +13,21 @@ body {
   display: block;
   width: 85%;
   margin: 0 auto;
+}
+
+.mejs__controls:not([style *='display:none']) {
+
+  background: orange;
+}
+
+@media(min-width: 768px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .transcriptWrapper{
+    width: 100%;
+  }
 }
